@@ -1,0 +1,96 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;}
+
+
+body{
+    background: linear-gradient(90deg, violet 10%, purple 90%);
+    /* radial-gradient(at top violet, purple);*/
+}
+
+
+.imagen{
+    text-align: center;
+    
+}
+
+nav{
+    text-align: center;
+}
+
+nav a{    
+    text-decoration:none;
+    color:inherit;
+    font-size:14px;
+    } 
+    nav li{
+    display:inline-block;
+    width:10%;
+    padding:5px 10px;
+    background-color:silver;
+    border:1px solid pink;
+    border-radius:3px;
+    text-align:center;
+    color:black;
+    }
+    nav li:hover{
+    background-color: pink;
+    color:purple;
+    }
+
+    .titulo{       
+        position: absolute;
+        bottom: 50%;
+        right: 45%;
+    }
+
+
+    #titulo1{        
+        font-family: cursive;
+    }
+
+    #titulo2{
+        position: absolute;
+        right: 20px;
+        font-family: cursive;
+        
+    }
+
+    .botones{
+        display: inline-block;
+        position: absolute;
+        bottom: 15%;
+        right: 35%;
+    
+    }
+
+    #registrar{
+        width: 200px;
+        height: 20px;
+        margin:  20px auto ;            
+        border:1px solid pink;
+        border-radius:3px;
+        background-color:silver;   
+        padding:3px 10px;
+        
+    }
+
+    #login{
+        width: 200px;
+        height: 20px;
+        margin:  20px auto ;           
+        border:1px solid pink;
+        border-radius:3px;
+        background-color:silver;   
+        padding:3px 10px;
+
+    }
+
+    .pie{
+        position: absolute;
+        bottom: 0;
+        right: 40%;       
+        
+    }

@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: purple;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: sans-serif;
+}
+
+
+.label{
+    padding: 20px 130px;
+    font-size: 35px;
+    font-weight: bold;
+    color: violet;
+}
+
+.login_form{
+    padding: 20px 40px;
+}
+
+.font{
+    font-size: 18px;
+    color: black;
+    margin: 5px 0;
+}
+
+
+
+.font2{
+    font-size: 18px;
+    color: black;
+    margin: 5px 0;
+}
+
+.font3{
+    font-size: 18px;
+    color: black;
+    margin: 5px 0;
+}
+
+.button{
+    margin: 45px 0 30px 0;
+    height: 25px;
+    width: 200px;
+    font-size: 20px;
+    color: black;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    background: silver;
+    border-radius: 3px;
+    border: 1px solid pink;
+    transition: .5s;
+}
+
+.button2{
+    margin: 45px 0 30px 0;
+    height: 25px;
+    width: 200px;
+    font-size: 20px;
+    color: black;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    background: silver;
+    border-radius: 3px;
+    border: 1px solid pink;
+    transition: .5s;
+}

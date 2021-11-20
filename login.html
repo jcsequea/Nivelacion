@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio Sesion</title>
+    <link rel="stylesheet" href="Css/styles.css">
+</head>
+<body>
+    <fieldset class="login_form">
+        <legend class="label"><b>Iniciar Sesion</b></legend>
+        <form action="">
+            <input type="email" name="Email" class="font" id="txt_user" placeholder="Email">
+            <input type="password" name="Pass" class="font2" id="txt_Password" placeholder="Password">            
+            <input type="button" name="Validar" class="button" id="bt_SingIn" value="Sign In" onclick="validar_user()">
+        </form>
+    </fieldset>
+
+    <input type="button" name="Registrar" class="button2" id="bt_registrar" value="Ir Registro" onclick="Registrar()">
+    <script src="JS/login.js"></script>
+</body>
+</html>
